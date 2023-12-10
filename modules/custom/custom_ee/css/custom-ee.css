@@ -1,0 +1,719 @@
+div#drupal-modal section.banner-section {
+    display: none;
+}
+
+div#drupal-modal {
+    z-index: 99999999;
+    position: relative;
+}
+
+div#drupal-modal .col-md-3.wow.fadeInUp {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form button.button.button--primary.js-form-submit.form-submit {
+    display: none;
+}
+
+.node-submit-query-form .vertical-tabs.clearfix {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form.node-form div#edit-title-wrapper {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form.node-form .form-item {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 25px; */
+    position: relative;
+}
+
+.node-executive-education-profile-edit-form.node-form .layout-region.layout-region-node-main,
+input#edit-field-ee-dob-0-value-date,
+div#edit-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-wrapper label,
+fieldset#edit-field-to-be-filled-in-by-the-spo-0 .fieldset-wrapper,
+.fieldset-wrapper {
+    width: 100% !important;
+}
+
+.node-executive-education-profile-edit-form.node-form select#edit-field-executive-title,
+.node-executive-education-profile-edit-form.node-form select#edit-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-sponser-title {
+    width: 230px;
+}
+
+.node-executive-education-profile-edit-form.node-form .node-form .form-wrapper {
+    margin-bottom: 15px;
+}
+
+.node-executive-education-profile-edit-form.node-form div#edit-field-ee-dob-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.node-executive-education-profile-edit-form.node-form select {
+    padding: 15px 20px !important;
+}
+
+.node-executive-education-profile-edit-form.node-form textarea.form-textarea {
+    color: #3b3b3b;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 15px 20px;
+}
+
+.node-executive-education-profile-edit-form.node-form .form-radios .form-item {
+    display: inline-block !important;
+}
+
+.node-executive-education-profile-edit-form.node-form .form-radios .form-item label::before {
+    width: 1.04vw;
+    height: 1.04vw;
+    margin-top: -0.52vw;
+    border: 2px solid #1B2F6E;
+}
+
+.node-executive-education-profile-edit-form.node-form legend {
+    width: 250px;
+}
+
+.node-executive-education-profile-edit-form.node-form .form-textarea-wrapper {
+    width: calc(100% - 250px);
+}
+
+.node-executive-education-profile-edit-form.node-form .tabledrag-toggle-weight-wrapper {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form.node-form input#edit-submit {
+    border-radius: 0.21vw;
+    max-width: 300px;
+    background-image: url(https://stage-iima.hyperconnect.asia/modules/custom/custom_ee/images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 25px center;
+    color: #fff;
+    background: #C1272D;
+    display: inline-block;
+    padding: 20px 30px;
+    min-width: 250px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.node-executive-education-profile-edit-form.node-form input#edit-submit:hover {
+    padding: 20px 100px 20px 30px;
+    min-width: 250px;
+    font-size: 22px;
+    max-width: 300px;
+    background-image: url(https://stage-iima.hyperconnect.asia/modules/custom/custom_ee/images/arrow.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right 25px center;
+}
+
+.node-executive-education-profile-edit-form.node-form .field--type-entity-reference-revisions legend {
+    float: none;
+    width: 100%;
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 0;
+    /* 2.08vw */
+}
+
+.node-executive-education-profile-edit-form.node-form .field-multiple-table th.field-label {
+    background: white;
+    color: #000;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.node-executive-education-profile-edit-form.node-form .field-multiple-table td.field-multiple-drag {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form.node-form .field-multiple-table td {
+    background-color: #fff;
+}
+
+/* #field-ee-profile-education-values .fieldset-wrapper div div,
+#field-work-experience-values .fieldset-wrapper div div {
+    display: inline-block;
+    width: 24%;
+} */
+
+.field-multiple-table .fieldset-wrapper .js-form-wrapper .form-wrapper {
+    display: inline-block;
+    width: 24%;
+}
+
+.field-multiple-table .fieldset-wrapper .js-form-wrapper .form-wrapper .form-item {
+    width: 100%;
+    display: block;
+}
+
+.field-multiple-table .fieldset-wrapper .js-form-wrapper {
+    margin: 0 !important;
+}
+
+/*
+.node-executive-education-profile-edit-form .js-form-item .clearfix {
+    position: absolute;
+    top: 0;
+    left: 315px;
+}
+*/
+
+.node-executive-education-profile-edit-form.node-form .form-item .field-add-more-submit {
+    border: 0px;
+    padding: 20px;
+    font-size: 0px;
+    line-height: 0px;
+    background: url(https://stage-iima.hyperconnect.asia/modules/custom/custom_ee/images/plus-icon.svg) no-repeat scroll 0 0;
+    font-size: 0px !important;
+    height: 40px !important;
+}
+
+.node-executive-education-profile-edit-form .field-multiple-table .fieldset-wrapper .form-wrapper .js-form-wrapper {
+    margin: 0;
+}
+
+.node-executive-education-profile-edit-form .form-type-checkbox {
+    width: 250px !important;
+    margin: 0 0 0 186px;
+}
+
+.node-executive-education-profile-edit-form .form-radios .form-type-radio {
+    width: 140px !important;
+}
+
+.node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox,
+.node-executive-education-profile-edit-form .form-radios .form-radio {
+    display: none;
+}
+
+.node-executive-education-profile-edit-form .form-radios .form-radio+label,
+.node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox+label {
+    position: relative;
+    padding: 2px 0;
+    margin: 0 0 0 30px;
+}
+
+.node-executive-education-profile-edit-form.node-form .form-item input,
+.node-executive-education-profile-edit-form.node-form .form-item select {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.node-executive-education-profile-edit-form .form-radios .form-radio+label::before,
+.node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox+label::before {
+    -webkit-appearance: none;
+    border: 2px solid #1B2F6E;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    content: '';
+    left: 0;
+    top: 5px;
+    line-height: 0;
+    margin: 0 0 0 -30px !important;
+}
+
+.node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox+label {
+    font-weight: bold;
+    line-height: 24px;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.form-checkbox:checked+label:after,
+.node-executive-education-profile-edit-form .form-radios .form-radio:checked+label:after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    position: absolute;
+    background: #2A2B2E;
+    left: -25px;
+    top: 5px;
+    font-size: 32px;
+}
+
+.form-checkbox+label:active,
+.form-checkbox:checked+label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.role-program_coordinator .field--name-title {
+    display: none;
+}
+
+.role-program_coordinator label,
+.role-program_coordinator .js-form-item label {
+    width: 100% !important;
+}
+
+.role-program_coordinator select,
+.role-program_coordinator .js-form-item select {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.role-program_coordinator .fieldset-wrapper .js-form-item label,
+.role-program_coordinator .fieldset-wrapper select {
+    display: block !important;
+    width: 100% !important;
+    margin: 0;
+    max-width: 100% !important;
+}
+
+.role-program_coordinator .layout-node-form .layout-region {
+    padding: 0 !important;
+}
+
+.role-program_coordinator .js-form-item {
+    display: inline-block !important;
+    width: 100%;
+}
+
+.role-program_coordinator .ui-dialog-buttonpane {
+    display: none;
+}
+
+.role-program_coordinator .form-textarea-wrapper {
+    width: 100% !important;
+}
+
+.role-program_coordinator .node-executive-education-profile-edit-form input,
+.role-program_coordinator .node-executive-education-profile-edit-form select,
+.role-program_coordinator .node-executive-education-profile-edit-form textarea {
+    background: #f0f0f0;
+    pointer-events: none;
+}
+
+.role-program_coordinator label {
+    pointer-events: none;
+}
+
+.role-program_coordinator .field--name-field-ee-position-of-nominee .fieldset-wrapper {
+    margin: 30px 0 0 30px;
+}
+
+.-role-login-page-form input#edit-submit {
+    margin: 0px 0px 10px 0px;
+}
+
+.-role-login-page-form p.social {
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.-role-login-page-form p.social img {
+    width: 100%;
+}
+
+/*.cart-empty-page {
+    padding: 300px 70px;
+}
+.cart.cart-form {
+    padding: 250px 70px;
+}
+form#commerce-checkout-flow-multistep-default {
+    padding: 240px 70px;
+}*/
+
+div#edit-coupon-redemption {
+    display: none;
+}
+
+.case-qty-price-holder.d-md-flex.align-items-center.mb-50 {
+    display: block !important;
+}
+
+.button--add-to-cart {
+    max-width: 200px !important;
+    width: 200px;
+    color: #fff !important;
+    background: #C1272D !important;
+    margin-top: 20px;
+}
+
+.view.view-user-orders.view-id-user_orders.view-display-id-page_1 {
+    padding: 240px 70px;
+}
+
+.checkout-order-summary .field.field--name-commerce-file.field--type-file.field--label-above,
+.field.field--name-field-case-file.field--type-file.field--label-above,
+.field.field--name-field-inspection-copy.field--type-file.field--label-above {
+    display: none;
+}
+
+.related-case-container .swiper-slide {
+    width: 100% !important;
+}
+
+input#edit-quantity-0-value {
+    text-align: center !important;
+    pointer-events: none;
+    background: #ccc;
+    width: 80px !important;
+}
+
+.case-qty-price-holder label {
+    width: 150px;
+}
+
+.case-qty-price-holder input {
+    text-align: left !important;
+    width: 400px !important;
+    max-width: 400px !important;
+}
+
+.case-qty-price-holder input#edit-submit {
+    text-align: center !important;
+}
+
+.reject-button {
+    display: block !important;
+}
+
+.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value {
+    margin-top: 40px;
+}
+
+.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value label {
+    width: 140px !important;
+}
+
+.path-executive-education button.ui-dialog-titlebar-close::after {
+    content: 'X' !important;
+}
+
+page-node-type-executive-education-profile button.ui-dialog-titlebar-close::after {
+    content: 'X' !important;
+}
+
+.node-executive-education-profile-edit-form.node-form label {
+    width: 12.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+select#edit-field-please-indicate-the-source-0-inline-entity-form-field-ex-source-of-information {
+    max-width: 500px;
+    width: 300px;
+}
+
+div#drupal-modal nav.breadcrumb,
+div#drupal-modal .edu-menu-holder {
+    display: none;
+}
+
+div#drupal-modal section.iima-event-sec.acadmic-program-sec {
+    padding: 1vw 0 1vw;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons {
+    z-index: 999999;
+}
+
+.role-program_coordinator .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value.form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value {
+    margin-left: 28px;
+}
+
+h3.h2.fw-700.mb-50,
+h3.h2.fw-700 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.messages.messages--error {
+    display: none;
+}
+
+.cart-icon img {
+    width: 96px;
+    margin-right: 11px;
+}
+
+.case-qty-price-holder input {
+    color: #3b3b3b !important;
+    border: 1px solid #ccc !important;
+    padding: 0.78vw 1.04vw !important;
+    border-radius: 0.21vw !important;
+    font-size: 1.04vw !important;
+    line-height: 1.45vw !important;
+    background-position: right 1.3vw center !important;
+    background-size: 0.78vw !important;
+}
+
+.commerce-order-item-add-to-cart-form .form-item {
+    margin-top: 20px;
+}
+
+.case-qty-price-holder .form-submit {
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    font-weight: 600;
+    max-width: 250px !important;
+    line-height: 70px;
+    color: white !important;
+}
+
+.case-qty-price-holder h4.h4.font-Poppins.fw-300 {
+    font-weight: 600;
+}
+
+.case-qty-price-holder h4 span {
+    font-family: sans-serif !important;
+}
+
+.case-qty-price-holder .field--name-field-course-start-date legend {
+    width: 15.5%;
+    float: left;
+}
+
+.case-qty-price-holder .field--name-field-course-end-date legend {
+    width: 15.5%;
+    float: left;
+}
+
+.case-qty-price-holder legend+* {
+    clear: none !important;
+}
+
+.case-qty-price-holder span.fieldset-legend {
+    margin-left: 0px !important;
+    font-size: 22px;
+}
+
+.case-qty-price-holder .form-select {
+    width: 8.4vw;
+    padding: 12px;
+}
+
+.case-qty-price-holder input#edit-submit {
+    text-align: center !important;
+    padding: 20px 30px !important;
+}
+
+.case-qty-price-holder .field--name-quantity label {
+    font-weight: bold !important;
+}
+
+.case-qty-price-holder h4:nth-child(1) span {
+    margin-left: 82px;
+}
+
+.pdf-download span {
+    cursor: pointer;
+    color: #c1282e;
+    font-weight: 600;
+    font-size: 17.5px;
+}
+
+.pdf-download span:after {
+    background-image: url(images/arrow-right-red.svg);
+}
+
+fieldset#edit-login-returning-customer input,
+fieldset#edit-login-register input {
+    border: 1px solid #ccc !important;
+    padding: 0.78vw 1.04vw !important;
+    border-radius: 0.21vw !important;
+    font-size: 1.04vw !important;
+    line-height: 1.45vw !important;
+    background-position: right 1.3vw center !important;
+    background-size: 0.78vw !important;
+}
+
+fieldset#edit-login-returning-customer .form-item {
+    margin-top: 20px;
+}
+
+input#edit-login-returning-customer-submit,
+input#edit-login-register-register,
+form#holiday-calendar input#edit-submit {
+    max-width: 250px !important;
+    width: 250px;
+    color: #fff !important;
+    background: #C1272D !important;
+    margin-top: 20px;
+    text-align: center !important;
+    padding: 20px 30px !important;
+}
+
+form#holiday-calendar label {
+    display: none;
+}
+
+.campus-tour-request-detail ul li div {
+    width: 19.79vw;
+    padding-right: 5.2vw;
+    font-weight: 600;
+}
+
+form#campus-tour-pd-form .form-item-imagefile label {
+    font-weight: normal;
+}
+
+form#campus-tour-pd-form .form-item-imagefile {
+    margin-bottom: 20px;
+}
+
+li.Corporate.inspection-copy,
+li.Institute.inspection-copy,
+li.other.inspection-copy,
+.Annual.Contract.Option.A.inspection-copy,
+.Annual.Contract.Option.B.inspection-copy,
+.Annual.Contract.Option.C.inspection-copy {
+    display: none;
+}
+
+.Corporate .min-field,
+.Faculty .min-field,
+.Institute .min-field,
+.Doctoral_candidate .min-field {
+    display: none;
+}
+
+.left-space {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.view-commerce-cart-form .quantity-edit-input {
+    pointer-events: none;
+    background-color: #dedede;
+}
+
+form#commerce-checkout-flow-multistep-default fieldset#edit-payment-information input.form-text {
+    color: #3b3b3b !important;
+    border: 1px solid #ccc !important;
+    padding: 0.78vw 1.04vw !important;
+    border-radius: 0.21vw !important;
+    font-size: 1.04vw !important;
+    line-height: 1.45vw !important;
+    background-position: right 1.3vw center !important;
+    background-size: 0.78vw !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.address-container-inline>.form-item {
+    display: block !important;
+}
+
+fieldset#edit-payment-information label {
+    width: 150px;
+}
+
+fieldset#edit-payment-information input#edit-payment-information-billing-information-address-0-address-address-line2 {
+    margin-left: 154px;
+}
+
+fieldset#edit-payment-information .form-item-payment-information-billing-information-copy-to-address-book {
+    padding-left: 154px;
+    padding-top: 10px;
+}
+
+.messages.messages--error {
+    display: none;
+}
+
+a.red-btn-squre.mt-30.exed-disable-apply-button {
+    pointer-events: none;
+    background-color: gray;
+}
+
+.path-executive-education-my-courses .courses-applied-foot-btn a:last-child {
+    border: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.path-ee-courses-approval-list .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix .ui-dialog-title {
+    display: none;
+}
+
+.path-ee-courses-approval-list .ui-dialog .ui-dialog-content .js-form-item,
+.path-ee-courses-approval-list .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+    margin-bottom: 0px;
+}
+
+.path-ee-courses-approval-list .ui-dialog .col-md-9 {
+    width: 100%;
+}
+
+.path-ee-courses-approval-list .ui-dialog .node-form .form-wrapper {
+    margin-bottom: 1em;
+}
+
+.path-ee-courses-approval-list .ui-dialog .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value {
+    margin-top: 0px;
+}
+
+.path-ee-courses-approval-list .ui-dialog .field--name-field-to-be-filled-in-by-the-spo span.fieldset-legend,
+.path-ee-courses-approval-list .ui-dialog .field--name-field-please-indicate-the-source span.fieldset-legend {
+    font-size: 18px;
+}
+
+.path-ee-courses-approval-list .ui-dialog .field--name-field-ee-dob .label {
+    font-size: 17px;
+}
+
+.path-ee-courses-approval-list .ui-dialog .node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox+label,
+.path-ee-courses-approval-list .ui-dialog span.fieldset-legend {
+    font-weight: normal;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix .ui-dialog-title {
+    display: none;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .ui-dialog-content .js-form-item,
+.path-ee-courses-previous-approval-list .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+    margin-bottom: 0px;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .col-md-9 {
+    width: 100%;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .node-form .form-wrapper {
+    margin-bottom: 1em;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-to-be-filled-in-by-the-spo-0-inline-entity-form-field-self-sponsored-value {
+    margin-top: 0px;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .field--name-field-to-be-filled-in-by-the-spo span.fieldset-legend,
+.path-ee-courses-previous-approval-list .ui-dialog .field--name-field-please-indicate-the-source span.fieldset-legend {
+    font-size: 18px;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .field--name-field-ee-dob .label {
+    font-size: 17px;
+}
+
+.path-ee-courses-previous-approval-list .ui-dialog .node-executive-education-profile-edit-form .form-type-checkbox .form-checkbox+label,
+.path-ee-courses-previous-approval-list .ui-dialog span.fieldset-legend {
+    font-weight: normal;
+}
+
+.page-node-type-programmes .ui-dialog-title {
+    display: none;
+}

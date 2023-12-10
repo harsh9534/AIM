@@ -1,0 +1,64 @@
+.related-case-holder .related-case-box h4 {
+    min-height: 8vh;
+}
+
+.path-faculty-research #block-iima-content .views-element-container .view-case-centers .view-content .lp-filter-detail-holder .case-filter-detail-box:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.path-faculty-research #block-iima-content .views-element-container .view-case-centers .view-content .lp-filter-detail-holder {
+    width: 100%;
+}
+
+.path-faculty-research-case-centers-developing-mis-national-innovation-foundation-choosing-process .views-element-container .swiper-wrapper {
+    display: block;
+}
+
+.path-faculty-research-case-centers-developing-mis-national-innovation-foundation-choosing-process .views-element-container .swiper-wrapper .view-content {
+    display: flex;
+}
+
+.path-faculty-research-case-centers-developing-mis-national-innovation-foundation-choosing-process .announcements-container .swiper-slide {
+    width: 33%;
+    display: inline-block;
+}
+
+body.path-user.role-case_center footer {
+    display: block !important;
+}
+
+.form-field-holder label {
+    width: 300px;
+    font-weight: normal;
+}
+
+.node-executive-education-profile-edit-form.node-form .fieldset-wrapper {
+    width: calc(100% - 300px);
+}
+
+.user-tab-holder .form-item {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.form-field-holder input,
+.form-field-holder select,
+.form-field-holder textarea {
+    padding: 15px 20px;
+    border-radius: 0;
+}
+
+body.path-user.role-case_center #fixed-head {
+    display: flex !important;
+}
+
+.form-select {
+    display: inline-block;
+    width: 10vw;
+}
+
+.form-composite>legend {
+    font-weight: 400;
+}
